@@ -1,0 +1,95 @@
+# ======================
+# 🔧 Node.js (frontend & backend)
+# ======================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# ======================
+# 🧱 Build artifacts
+# ======================
+dist/
+build/
+.cache/
+.temp/
+out/
+.next/
+vite.config.ts.timestamp*
+
+# ======================
+# 🧩 Environment variables
+# ======================
+.env
+.env.*
+!.env.example
+
+# ======================
+# 🐳 Docker
+# ======================
+*.pid
+*.seed
+*.log
+docker-data/
+mysql_data/
+mysql_data_pub/
+volumes/
+**/docker-compose.override.yml
+**/docker-compose.local.yml
+
+# ======================
+# 🧠 System files
+# ======================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.old
+*.orig
+*.rej
+
+# ======================
+# 🚀 Deployment artifacts
+# ======================
+*.tar
+*.zip
+*.gz
+*.tgz
+*.7z
+
+# ======================
+# 🔒 Secrets / SSH keys (just in case)
+# ======================
+*.pem
+*.key
+*.crt
+*.pub
+id_rsa*
+id_ed25519*
+.ssh/
+
+# ======================
+# 🧰 Logs & runtime
+# ======================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+debug.log
+pids/
+*.pid
+*.seed
+
+# ======================
+# 🧾 Backup
+# ======================
+*.bak
+*.backup
+*.orig
+*.save
